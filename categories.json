@@ -1,0 +1,18 @@
+{
+  "categories": [
+    { "name" : "bars / pubs",
+      "bars": {},
+      "image": "http://assets3.thrillist.com/v1/image/1158406/size/tl-horizontal_main/portland-s-10-best-bad-decision-bars"
+    },
+
+    { "name" : "breweries",
+      "bars": {},
+      "image": "http://static1.squarespace.com/static/53dc4794e4b0397c480f3887/53dd7d6fe4b0e03ffbae110e/54ccf3dbe4b063b3a81ee6ba/1423666615733/?format=1500w"
+    },
+
+    { "name" : "wineries",
+      "bars": {},
+      "image": "http://www.newyork.com/articles/wp-content/uploads/2013/10/wine-glasses_650.jpg"
+    }
+  ]
+}

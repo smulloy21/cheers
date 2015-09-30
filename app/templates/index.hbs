@@ -1,1 +1,11 @@
-{{outlet}}
+<div class=container>
+  <h1 class="no-top no-bottom">Welcome to Cheers!</h1>
+  <h1 class="tagline col-xs-offset-2"><small class="no-bottom">a review site for local watering holes</small></h1>
+</div>
+
+
+{{ember-carousel model=model.categories}}
+
+
+
+{{category-tiles model=model.categories}}

@@ -1,0 +1,25 @@
+{{#carousel-container transition-interval=400}}
+    {{#carousel-body}}
+      {{#each model as |category|}}
+        {{#carousel-item}}
+          <div class="row section">
+            <div class="carousel col-xs-12">
+              <img src={{category.image}} class=".absolute col-xs-12">
+            </div>
+
+          </div>
+        {{/carousel-item}}
+      {{/each}}
+    {{/carousel-body}}
+
+    <div class="left carousel-control">
+      {{#carousel-arrow direction="right" tagName="div"}}
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      {{/carousel-arrow}}
+    </div>
+    <div class="right carousel-control">
+      {{#carousel-arrow direction="left" tagName="div"}}
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      {{/carousel-arrow}}
+    </div>
+  {{/carousel-container}}

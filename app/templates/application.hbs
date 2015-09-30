@@ -1,3 +1,22 @@
-<h2 id="title">Welcome to Ember</h2>
+<nav class="navbar">
+  <div class="container-fluid">
+    {{#link-to 'index'}}<div class="navbar-brand">
+      Cheers!
+    </div>{{/link-to}}
+    <ul class="nav navbar-nav">
+      <li style="border-radius: 5px;">{{#link-to 'about'}}about{{/link-to}}</li>
+    </ul>
 
-{{outlet}}
+    <div class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav">
+        <li style="border-radius: 5px;">{{#link-to 'add'}}add a bar{{/link-to}}</li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  {{outlet}}
+
+<div class="footer text-center">
+  <h4 class="shoutout"><small>created by smulloy</small></h4>
+</div>
